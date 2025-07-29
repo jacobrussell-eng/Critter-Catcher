@@ -1,10 +1,17 @@
 body {
     margin: 0;
     overflow: hidden;
-    cursor: zoom-in;
+    cursor: url('assets/glass.png');
 }
 
 canvas {
     display: block;
     background-color: lawngreen;
+}
+
+#magnified {
+    position: absolute;
+    display: none;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
 }
